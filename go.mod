@@ -1,8 +1,6 @@
 module go.etcd.io/etcd/v3
 
-go 1.24.0
-
-toolchain go1.24.11
+go 1.26.0
 
 replace (
 	go.etcd.io/etcd/api/v3 => ./api
@@ -33,7 +31,7 @@ require (
 	go.etcd.io/etcd/tests/v3 v3.6.7
 	go.etcd.io/raft/v3 v3.6.0
 	go.uber.org/zap v1.27.0
-	golang.org/x/time v0.9.0
+	golang.org/x/time v0.16.0
 	google.golang.org/grpc v1.71.1
 	google.golang.org/protobuf v1.36.5
 )
